@@ -1,3 +1,50 @@
 .border{
     border-style: solid;
 }
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    border-radius: 8px;
+    width: 600px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    display: block;
+
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.grid-column{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-row{
+    align-content: center;
+    flex-direction: row;
+    display:flex;
+    justify-content: space-around
+}
+
+.list{
+    list-style-type: circle;
+}
+h2{
+    text-align: center;
+}
+
+iframe{
+    align-content: center;
+    margin-top: 10px;
+    margin:10px auto;
+    width: 560px;
+    height: 315px;
+    display: block;
+}
