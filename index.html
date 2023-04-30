@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="btn-container">
+        <button id="btn">Hej</button>
+        <script>
+            const button1 = document.getElementById("btn")
+            button1.addEventListener("mouseover", mouseOverFunction);
+            button1.addEventListener("click", HelloWorld);
+            button1.addEventListener("mouseout", mouseOufFunction)
+            function mouseOverFunction(){
+                document.getElementById("outlet").innerHTML = "Hover that mouse"
+            }
+        
+            function HelloWorld(){
+                document.getElementById("outlet").innerHTML="Hello world"
+            }
+        
+            function mouseOufFunction(){
+                document.getElementById("outlet").innerHTML = "So you let me go?"
+            }
+            
+        
+        </script>
+        <p id="outlet">Hello</p>
+    </div>
+    
+</body>
+</html>
